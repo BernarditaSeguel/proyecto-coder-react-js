@@ -1,0 +1,240 @@
+<body>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=5.0">
+    <!--Link Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://www.dafontfree.net/embed/dGhlc2Fucy1iMi1leHRyYWxpZ2h0JmRhdGEvNTEvdC8yNDEyOS9UaGVTYW5zLUIyRXh0cmFMaWdodC5vdGY" rel="stylesheet" type="text/css">
+    <style>
+       body {
+       line-height: 1.5;
+       font-family: thesans-b2-extralight, sans-serif;
+       overflow-x: hidden
+    }
+    * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box
+    }
+     
+    /*estilo boton*/
+     
+    .boton {
+       text-decoration: none;
+       display: inline-block;
+       padding: 10px 20px;
+       text-transform: uppercase;
+       text-align: center;
+       font-size: 0.75rem;
+       font-weight: 400;
+    margin-top: -20px;
+    }
+     
+    .solido {
+       background-color: #000;
+       border: 1px solid #000;
+       color: #fff;   
+    }
+     
+    .solido:hover {
+       color: #000;
+       border: 1px solid #000;
+       background-color: transparent;
+    }
+     
+    .solido a {
+       text-decoration: none;
+    }
+    .slide-home{
+    width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -7px;
+    }
+    .slide-home-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        z-index: 1;
+        margin-left: 36%;
+    }
+    .slide-home-text-titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .slide-home-text-titulo h2{
+        font-size: 1.5rem;
+    }
+    .slide-home-text-pequeño{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .slide-home-text-pequeño h3{
+        font-size: 0.75rem;
+    }
+     
+    .slide-home-img{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+     
+    .slide-home-img-web{
+       margin-left: auto;
+       margin-right: auto;
+    }
+     
+    .slide-home-img-mobile{
+       margin-left: auto;
+       margin-right: auto;
+       display: none;
+    }
+    
+    @media only screen and (max-width: 800px) {
+         
+    .boton {
+       text-decoration: none;
+       display: inline-block;
+       padding: 6px 20px;
+       text-transform: uppercase;
+       text-align: center;
+       font-size: 0.5rem;
+       font-weight: 400;
+    }
+    .slide-home{
+    width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: -7px;
+    }
+    .slide-home-text{
+        margin-left: 50%;
+    }
+    .slide-home-text-titulo h2{
+        font-size: 1.2rem;
+    }
+    .slide-home-text-pequeño h3{
+        font-size: 0.5rem;
+    }
+     
+    .slide-home-img{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+    }
+     
+    .slide-home-img-web{
+       margin-left: auto;
+       margin-right: auto;
+       display: none;
+    }
+     
+    .slide-home-img-mobile{
+       margin-left: auto;
+       margin-right: auto;
+       display: inline;
+    }
+    }
+    
+    @media only screen and (max-width: 600px) {
+         
+         .slide-home{
+         width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: -7px;
+         }
+         .slide-home-text{
+             margin-left: 50%;
+         }
+         .slide-home-text-titulo h2{
+             font-size: 0.8rem;
+         }
+         .slide-home-text-pequeño h3{
+             font-size: 0.4rem;
+         }  
+         }
+    
+    
+    @media only screen and (max-width: 420px) {
+         
+         .slide-home{
+         width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: -7px;
+         }
+         .slide-home-text{
+             margin-left: 50%;
+         }
+         .slide-home-text-titulo h2{
+             font-size: 0.6rem;
+         }
+         .slide-home-text-pequeño h3{
+             font-size: 0.4rem;
+             text-align: center;
+         }  
+         }
+    </style>
+    
+     
+       <div class="slide-home">
+        <div class="slide-home-img">
+            <div class="slide-home-img-web">
+              <img src="https://cdn.shopify.com/s/files/1/0063/9431/4841/files/SLIDE-WEB-BOON-SILLA-GRUB.jpg?v=1657116106" alt="boon-silla-grub" width="100%" height="100%">
+            </div>
+            <div class="slide-home-img-mobile">
+              <img src="https://cdn.shopify.com/s/files/1/0063/9431/4841/files/SLIDE-MOBILE-BOON-SILLA-GRUB.jpg?v=1657116106" alt="boon-silla-grub" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="slide-home-text">
+            <div class="slide-home-text-titulo">
+                <h2>MARTES</h2>
+                <h2 style="font-weight: 200;">DESPACHO</h2>
+                <h2>GRATIS</h2>
+            </div>
+            <a href="https://www.blancayaugusto.cl" class="boton solido">Comprar</a>
+            <div class="slide-home-text-pequeño">
+                <h3>*Despacho gratis por compras sobre $30.000 en Santiago*</h3>
+            </div>
+        </div>
+       </div>
+     
+    </body>
